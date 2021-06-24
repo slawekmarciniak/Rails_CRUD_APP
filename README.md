@@ -16,4 +16,4 @@ Reasons of use Rails:
 
 - Scaffold model
 
-- easey to build and use database (sqlite3)
+- easy to build and use database (sqlite3)
