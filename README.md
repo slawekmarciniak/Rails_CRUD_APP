@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My first CRUD App with Ruby on Rails.
 
-Things you may want to cover:
+In App i build friends-list with options: add, edit, delete, show (CRUD).
 
-* Ruby version
+App is inspired by Ruby on Rails course https://www.youtube.com/watch?v=fmyvWz5TUWg
 
-* System dependencies
+CSS styles supported by Bootstrap 5.
 
-* Configuration
+Reasons of use Rails:
 
-* Database creation
+- CRUD functionality
 
-* Database initialization
+- MVC architecture
 
-* How to run the test suite
+- Scaffold model
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- easey to build and use database (sqlite3)
