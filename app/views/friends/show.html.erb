@@ -1,14 +1,17 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>First name:</strong>
-  <%= @friend.first_name %>
+
+
+<div class="p-5 mb-4 bg-secondary rounded-3">
+  <div class="container-fluid py-5 bg-light"> 
+
+
+<p class="text-uppercase fs-1">
+  <strong> <%= @friend.first_name %></strong>
+   <strong><%= @friend.last_name %></strong>
 </p>
 
-<p>
-  <strong>Last name:</strong>
-  <%= @friend.last_name %>
-</p>
+
 
 <p>
   <strong>Email:</strong>
@@ -25,5 +28,14 @@
   <%= @friend.twitter %>
 </p>
 
-<%= link_to 'Edit', edit_friend_path(@friend) %> |
-<%= link_to 'Back', friends_path %>
+<%= link_to 'Edit', edit_friend_path(@friend), class:"btn btn-secondary"
+ %> 
+<%= link_to 'Back', friends_path, class:"btn btn-secondary" %>
+
+
+</div>
+
+ 
+</div>
+
+
