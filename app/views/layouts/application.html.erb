@@ -17,12 +17,17 @@
     <title>Friends App</title>
   </head>
   <body>
- <%= render 'home/header' %>
 
-<br/>
+
+  <%= render 'home/header' %>
+    <br/>
     <div class="container">
+      <br/>
+  <% if notice %> 
+  <%= render 'layouts/alerts' %>
+  <% end %>
       
-<%= yield %>
+      <%= yield %>
     </div>
  
 
